@@ -1,10 +1,10 @@
 # OrgSDK
 
-### Practical tools for AI-native business and operations.
+### A locally runnable workspace for tested AI actions.
 
-We’re building tools that help people and AI agents work with business context, execute useful work, and turn successful experiments into repeatable workflows.
+Run OrgSDK on infrastructure you control. Give external AI clients persistent projects, scoped execution and a way to turn useful code into tested, reusable actions.
 
-**[Explore the platform](https://github.com/OrgSDK/OrgSDK)** · [Website](https://orgsdk.ai) · [Learn](https://learn.orgsdk.ai) · [Lake](https://lake.orgsdk.ai)
+**[Explore the platform](https://github.com/OrgSDK/OrgSDK)** · [Run locally](https://github.com/OrgSDK/OrgSDK#install-and-run) · [Website](https://orgsdk.ai)
 
 ## A place for AI work to run
 
@@ -22,13 +22,6 @@ External clients handle reasoning and conversation. OrgSDK provides the executio
 [![Checks](https://github.com/OrgSDK/OrgSDK/actions/workflows/ci.yml/badge.svg)](https://github.com/OrgSDK/OrgSDK/actions/workflows/ci.yml)
 
 The platform is in active development. We’re building in public, with automated checks for the backend, frontend, execution runtime and PostgreSQL behavior.
-
-## Context and learning
-
-| Project                                        | What it’s for                                                                                                     |
-| ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| **[Learn by OrgSDK](https://learn.orgsdk.ai)** | Hands-on learning about language models and prompting: try an idea, inspect the result, and refine your approach. |
-| **[Lake](https://lake.orgsdk.ai)**             | Bring business data into a shared workspace and expose focused data views to AI clients through MCP.              |
 
 ## Built by people, for practical work
 
