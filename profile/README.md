@@ -1,6 +1,8 @@
 # OrgSDK
 
-### A locally runnable workspace for tested AI actions.
+[![OrgSDK — A local home for your AI’s actual work.](../brand/github-profile-1280x400.png)](https://orgsdk.ai)
+
+### Your AI brings the reasoning. OrgSDK gives its work somewhere to live.
 
 Run OrgSDK on infrastructure you control. Give external AI clients persistent projects, scoped execution and a way to turn useful code into tested, reusable actions.
 
