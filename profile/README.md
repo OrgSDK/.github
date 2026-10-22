@@ -1,6 +1,6 @@
 # OrgSDK
 
-[![OrgSDK — A local home for your AI’s actual work.](../brand/github-profile-1280x400.png)](https://orgsdk.ai)
+[![OrgSDK — A local home for your AI’s actual work.](../brand/github-profile-1280x400.png?v=20261023)](https://orgsdk.ai)
 
 ### Your AI brings the reasoning. OrgSDK gives its work somewhere to live.
 

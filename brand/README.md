@@ -2,14 +2,21 @@
 
 The navy-and-paper identity used on [orgsdk.ai](https://orgsdk.ai), GitHub and
 the [OrgSDK LinkedIn page](https://www.linkedin.com/company/orgsdk/).
-Updated 22 October 2026.
+Updated 23 October 2026.
 
 ## Identity
 
-Use the supplied connected-node mark and OrgSDK wordmark in `source/`. These
-are preserved copies of the website artwork. Keep the mark's geometry and the
-capitalization **OrgSDK**. The public identity replaces the earlier indigo
-Orbit-O imagery.
+Use the project-and-action mark and outlined OrgSDK wordmark in `source/`.
+The open frame represents a persistent project; the separate square represents
+a reusable action. Keep the geometry and capitalization **OrgSDK**.
+The mark works in one colour at favicon size and as a large standalone symbol.
+The earlier connected-node artwork is retained in `legacy/` and Git history.
+
+`source/mark.svg` and `source/wordmark.svg` are the canonical vector masters.
+Their `-inverse.svg` variants use off-white for navy backgrounds. Lettering is
+outlined from Liberation Sans Bold, so the SVGs need no installed font. The
+source typeface is published under the SIL Open Font License; no font binary is
+bundled here. The mark is original OrgSDK artwork.
 
 | Colour | Hex | Use |
 | --- | --- | --- |
@@ -20,7 +27,7 @@ Orbit-O imagery.
 | Border | `#c9cbd0` | Rules |
 
 Use Arial/Helvetica sans-serif typography, clear hierarchy, generous spacing
-and square edges. Supplied logo artwork retains its original lettering.
+and square edges. Keep the wordmark's outlined lettering intact.
 
 ## Files
 
@@ -51,6 +58,7 @@ somewhere to live.
 Describe the platform as source-available, matching its current licence. Link
 to [the platform](https://github.com/OrgSDK/OrgSDK) and [orgsdk.ai](https://orgsdk.ai).
 
-The workspace's `scripts/render-social-brand.mjs` rebuilds these assets using
-the website source artwork and the installed frontend's Sharp renderer.
-No generated or redrawn replacement logo is used.
+The workspace's `scripts/render-social-brand.mjs` rebuilds these assets from
+the SVG masters using the installed frontend's Sharp renderer. Pass `--website`
+to also rebuild the website's SVG/WebP assets and favicon. Rendering keeps the
+logo as vector artwork until the final PNG or WebP export.
