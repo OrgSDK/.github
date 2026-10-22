@@ -33,6 +33,8 @@ Each export has an editable, self-contained SVG source and a PNG for upload.
 | `linkedin-cover-1512x256.png` | 1512 × 256 | LinkedIn company cover |
 | `github-profile-1280x400.png` | 1280 × 400 | GitHub profile README header |
 | `github-social-1280x640.png` | 1280 × 640 | OrgSDK repository social preview |
+| `github-org-social-1280x640.png` | 1280 × 640 | Organization profile repository preview |
+| `github-plugins-social-1280x640.png` | 1280 × 640 | Plugin authoring repository preview |
 
 The avatars use an opaque off-white background so the navy logo remains visible
 on light and dark interfaces. Keep essential cover copy away from the edges.
